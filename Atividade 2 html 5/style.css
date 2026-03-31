@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+header{
+    text-align: left;
+    font-size: 50px;
+    align-items: center;
+
+}
+.Nave{
+    text-align: center;
+
+}
+
+
+nav{
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    image-rendering: auto;
+}
+
+thead{
+    font-size: 40px;
+}
+
+main{
+    text-align: center;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+body{
+    background-color: rgb(205, 255, 255);
+}
+
+footer{
+    background: linear-gradient(to top,#335183 0%, #14b3e7 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 40px 100px 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: 180px;
+    border-top-right-radius: 180px;
+
+}
+
+.medias-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* espaço entre as bolinhas */
+    
+}
+
+.medias-sociais i {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 24px;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+    
+
+.Links{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.Links a{
+    color: white;
+    text-decoration: none;
+    margin:0 15px;
+    font-size: 17px;
+}
+.copyright{
+    font-size: 15px;
+    margin-top: 25px;
+}
+.Line{
+    background-color: white;
+    width: 20px;
+    height: 6px;
+    margin-top: 2px;
+    border-radius: 40px;
+    position: relative;
+    animation: underLine-animation 3s infinite;
+    
+}
+
+@keyframes underLine-animation{
+    0%{
+    left: -231px;
+    opacity: 0;
+}
+50%{
+    opacity: 1;
+
+}
+100%{
+    left: 229px;
+    opacity: 0;
+}
+}
+
+medias-sociais i:hover {
+    background-color: white;
+    color: #ffffff;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+
+h1{
+    font-style: normal;
+}
+
+.P1{
+    background-color: white;
+    border-radius: 15;
+}
