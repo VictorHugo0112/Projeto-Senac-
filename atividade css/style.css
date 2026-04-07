@@ -6,12 +6,13 @@ header{
     align-items: center;
 
 }
-nav{
+.nav1{
     justify-self: center;
     background-color: rgb(104, 101, 101);
     padding: 2%;
     width: 100%;
     text-align: center;
+    font-size: 25px;
 }
 
 
@@ -60,8 +61,41 @@ body{
     width: 50%;
     position: sticky 0;
     justify-self: center;
+    font-size: 30px;
 }
 .galeriam{
     justify-self: center;
+    background-color: rgb(109, 108, 106);
+    padding: 5%;
+    border-radius: 2%;
+    display: block;
+
 }
- 
+
+.galeriaf{
+    background-color: gray;
+    justify-self: center;
+}
+
+.cadastro{
+    justify-self: center;
+    display: flexbox;
+
+}
+ .porra{
+    justify-self: center;
+    text-align: center;
+ }
+
+ .navec{
+    font-size: 30px;
+ }
+
+ form{
+    padding: 35%;
+    
+ }
+
+ fieldset{
+    width: 100%;
+ }
