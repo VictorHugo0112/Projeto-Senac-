@@ -1,0 +1,66 @@
+header{
+    background-color: rgb(0, 0, 61);
+    justify-content: center;
+    color: white;
+    padding: 2%;
+    text-align: center;
+}
+nav{
+    background-color: rgb(45, 36, 75);
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    color: white;
+    font-size: 20px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+}
+.quadrado1{
+    background-color: white;
+    margin: 100px;
+    border-radius: 3%;
+    size: 50%;
+
+}
+.titulo{
+    background-color: rgb(152, 201, 245);
+    text-align: center;
+    padding: 2%;
+    border-radius: 3%;
+    
+
+}
+.circularcard{
+    display: flex;
+    justify-content: center;
+}
+.card1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    flex-wrap: wrap;
+    margin: 4%;
+    border-radius: 5%;
+}
+.tes{
+    text-align: center;
+    font-size: 20px;
+}
+.card1 h4{
+    background-color: rgb(67, 67, 250);
+    padding: 30px;
+    margin-top: auto;
+    color: white;
+    
+}
+.card1 h5{
+    font-size: 30px;
+}
+footer{
+    align-items: center;
+    justify-self: center;
+}
