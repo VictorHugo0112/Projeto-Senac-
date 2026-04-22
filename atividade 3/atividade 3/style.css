@@ -1,0 +1,157 @@
+.topo{
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+}
+header h1{
+    color: white;
+}
+header p{
+    color: white;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 40px;
+}
+.clique{
+    padding-right: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quadrado{
+    background: linear-gradient(to right, black, rgb(61, 61, 253), blue, darkblue);
+    padding: 10px;
+    display: flex;
+    gap: 200px;
+}
+.quadrado h1{
+    color: white;
+}
+.quadrado p{
+    color: white;
+}
+.primeiro {
+    text-decoration: none;
+    background-color: rgb(245, 167, 0);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.a2{
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.quadro{
+    background-color: white;
+    border-radius: 15px;
+    padding: 1%;
+}
+.quadro h1, .quadro p{
+    color: black;
+    justify-content: end;
+}
+.informação{
+    background-color: rgb(231, 231, 231);
+    border-radius: 50px;
+    display: flex;
+    gap: 200px;
+    margin-top: 50px;
+}
+.informação p, .informação h3{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.quadradinho{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.quadradinho a{
+    margin-top: 500px;
+}
+.quadradinho h1{
+    font-size: 50px;
+}
+.destaque{
+    text-align: center;
+    border-radius: 50px;
+}
+.destaque p{
+    opacity: 50%;;
+}
+.destaque h2{
+    font-size: 40px;
+}
+.quadrado1{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+.card1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.card1 img{
+    width: 200px;
+    height: 200px;
+}
+.card1 p{
+    opacity: 100;
+}
+.estrutura{
+    justify-self: center;
+    margin-top: 40px;
+    text-align: center;
+}
+.Opaco{
+    opacity: 50%;
+}
+.quadrado2{
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+.pc{
+    background-color: white;
+}
+.etapas{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+}
+.ir{
+    background-color: #E5EAF1;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.teste1{
+    display: flex;
+    gap: 20px;
+}
+.etapa1{
+    border-left: solid 2px blue;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+
