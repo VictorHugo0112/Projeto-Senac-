@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de Cadastros</title>
+</head>
+<body>
+    <header>
+        Sistema de Cadastro
+    </header>
+    <main>
+    <input type="text" id="produto" placeholder="digite o nome"> <br>
+    <input type="text" id="preço" placeholder="digite o preço"> <br>
+    <button onclick="adicionarproduto()">Cadastre o produto</button>
+    <p id="mensagem"></p>
+
+    <h2>Produtos cadastrados</h2>
+    <ul id="listadeprodutos"></ul>
+
+    <p id="quantidade"></p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
